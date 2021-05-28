@@ -1,0 +1,36 @@
+.card {
+  margin: 0 auto;
+  position: center;
+  border: none;
+  background-color: rgba(245, 237, 237, 0);
+  width: 100%;
+  height: 100%;
+}
+.login-heading {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+  font-size: 60px;
+  font-family: Papyrus;
+  margin-bottom: 10%;
+}
+#email {
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+  font-family: Papyrus;
+}
+#password {
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+  font-family: Papyrus;
+}
+.login-button {
+  width: 100%;
+  background-color: black;
+  border: none;
+}
+.forgotPass {
+  text-align: center;
+  color: black;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+}

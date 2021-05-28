@@ -1,0 +1,24 @@
+#myDiaryHeading {
+  text-align: center;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-family: Papyrus;
+  margin: 0px 85px 60px 70px;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+}
+.diaryEntry {
+  text-align: center;
+  margin-top: 0%;
+  position: relative;
+}
+#entryHead {
+  margin-top: -10%;
+  border: none;
+}
+.entryList {
+  overflow-y: scroll;
+  border: none;
+  height: 40vh;
+  position: relative;
+}

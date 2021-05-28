@@ -1,0 +1,14 @@
+.passHead {
+  text-align: center;
+  /* position: relative; */
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: Papyrus;
+  margin: 0px 0px 190px 0px;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+}
+.resetButton {
+  width: 100%;
+  background-color: black;
+  border: none;
+}

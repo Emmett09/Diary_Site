@@ -1,0 +1,157 @@
+body {
+  font: 400 20px/1.5 "Papyrus";
+  background: url("/white-marble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  /* position: relative; */
+  /* margin-right: 30px; */
+  overflow: hidden;
+}
+.blackboard {
+  color: white;
+  background: url("/borderless-blackboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-image: url("/wood-border.jpg") 30 round;
+  box-shadow: 2px 2px #888888;
+}
+.carousel {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  max-width: 80%;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  margin: 0px 90px 200px 90px;
+  border-style: none;
+}
+.sliderimg {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.alice-carousel__next-btn-wrapper {
+  display: none;
+}
+.alice-carousel__prev-btn-wrapper {
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.wrap {
+  position: relative;
+  text-align: center;
+}
+.d-block {
+  width: 40%;
+  height: 60%;
+}
+
+.button {
+  font: 400 40px/1.5 "Papyrus";
+  border: dotted 5px;
+  background-color: transparent;
+}
+.arrow {
+  border: solid 0px;
+  background: transparent;
+}
+.About {
+  padding-left: 50px;
+}
+.Registration {
+  padding-left: 50px;
+}
+
+.dash-container {
+  margin: 30px;
+  margin-top: -70px;
+  background-color: beige;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.container-fluid {
+  background-color: beige;
+  border-radius: 5px;
+  text-align: center;
+}
+#loggedInAs {
+  background-color: beige;
+  border-radius: 5px;
+}
+#NavBar {
+  color: rgba(0, 0, 0, 0.527);
+  background-color: rgb(0, 0, 0);
+  box-shadow: 1px 1px rgba(77, 69, 69, 0.63);
+}
+#aboutHeading {
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 60px;
+  position: relative;
+  color: rgb(12, 12, 2);
+  font-size: 40px;
+  position: relative;
+}
+
+p {
+  color: rgb(41, 41, 5);
+  font-size: 14px;
+  text-align: center;
+  margin-right: 60px;
+}
+.headings {
+  padding-bottom: 50px;
+}
+#homeHeading {
+  text-align: center;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin: 0px 85px 40px 70px;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+}
+#homeId {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  margin: 10px 85px 0px 70px;
+}
+
+#newsfeedHead {
+  text-align: center;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  margin: 0px 85px 40px 70px;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1), 7px 7px 0 rgba(0, 0, 0, 0.05);
+}
+.newsPosts {
+  overflow-y: scroll;
+  border: none;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+}
+#aboutInfo {
+  font-size: 20px;
+  margin-top: 50px;
+}
